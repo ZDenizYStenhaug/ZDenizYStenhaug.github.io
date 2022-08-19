@@ -2,8 +2,8 @@
 
 title: "Deniz y. Stenhaug"
 name: "Deniz Y. Stenhaug"
-email: peter@pwills.com
-url: "http://www.pwills.com"
+email: stenhaugdeniz@gmail.com
+url: "https://zdenizystenhaug.github.io/"
 repository: "ZDenizYStenhaug/ZDenizYStenhaug.github.io"
 
 include:
@@ -27,16 +27,6 @@ markdown: kramdown
 theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dirt"
-  
-# settings for author profile
-author:
-  name   : "Peter Wills"
-  avatar : "/assets/images/headshot.jpg"
-  bio    : "I enjoy writing about things I'm interested in - mostly computing, math, physics, and software engineering."
-  location: "San Francisco, CA"
-  github : peterewills
-  linkedin: peterewills
-  email  : peter@pwills.com
 
 
 # # comments by disqus
@@ -44,11 +34,6 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "pwills-com"
-
-analytics:
-  provider: "google"
-  google:
-    tracking_id: "UA-116208936-1"
 
 
 # pagination for blog page
