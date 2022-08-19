@@ -20,7 +20,6 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-include-cache
-  - github-pages
 
 # Build settings
 markdown: kramdown
