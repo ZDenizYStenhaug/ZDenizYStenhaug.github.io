@@ -1,10 +1,10 @@
 # Configs for pwills.com
 
-title: "pwills.com"
-name: "pwills.com"
+title: "Deniz y. Stenhaug"
+name: "Deniz Y. Stenhaug"
 email: peter@pwills.com
 url: "http://www.pwills.com"
-repository: "peterewills/peterewills.github.io"
+repository: "ZDenizYStenhaug/ZDenizYStenhaug.github.io"
 
 include:
   - _pages
@@ -20,6 +20,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-include-cache
+  - github-pages
 
 # Build settings
 markdown: kramdown
