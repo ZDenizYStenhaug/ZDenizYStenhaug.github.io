@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
 # Theme
-gem "jekyll-remote-theme"
 gem "minimal-mistakes-jekyll"
+gem "jekyll-remote-theme"
 gem "jekyll-include-cache"
 gem "jekyll-paginate"
 gem "nokogiri", "~> 1.10.10"
@@ -17,4 +17,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
