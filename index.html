@@ -5,414 +5,264 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="en" class="no-js">
-  <head>
+<html class="no-js" lang="en">
+
+<head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Z’s Notebook - Deniz Y. Stenhaug</title>
-<meta name="description" content="Some personal projects and thoughts.">
+    <!-- begin _includes/seo.html -->
+    <title>Z’s Notebook - Deniz Y. Stenhaug</title>
+    <meta content="Some personal projects and thoughts." name="description">
 
 
-  <meta name="author" content="Deniz Y. Stenhaug">
-  
-  <meta property="article:author" content="Deniz Y. Stenhaug">
-  
+    <meta content="Deniz Y. Stenhaug" name="author">
+
+    <meta content="Deniz Y. Stenhaug" property="article:author">
+
+    <meta content="article" property="og:type">
+    <meta content="en_US" property="og:locale">
+    <meta content="Deniz Y. Stenhaug" property="og:site_name">
+    <meta content="Z’s Notebook" property="og:title">
+    <meta content="http://localhost:4000/" property="og:url">
+    <meta content="Some personal projects and thoughts." property="og:description">
+    <meta content="http://localhost:4000/assets/images/betty_bear.jpg" property="og:image">
+    <meta content="2022-08-22T00:00:00+03:00" property="article:published_time">
 
 
-<meta property="og:type" content="article">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Deniz Y. Stenhaug">
-<meta property="og:title" content="Z’s Notebook">
-<meta property="og:url" content="http://localhost:4000/">
+    <link href="http://localhost:4000/" rel="canonical">
 
 
-  <meta property="og:description" content="Some personal projects and thoughts.">
+    <link href="http://localhost:4000/page2/" rel="next">
 
 
-
-  <meta property="og:image" content="http://localhost:4000/assets/images/betty_bear.jpg">
-
-
-
-
-
-  <meta property="article:published_time" content="2022-08-22T00:00:00+03:00">
-
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "",
+            "url": "http://localhost:4000/"
+        }
+    </script>
 
 
+    <!-- end _includes/seo.html -->
 
 
-<link rel="canonical" href="http://localhost:4000/">
+    <link href="/feed.xml" rel="alternate" title="Deniz Y. Stenhaug Feed" type="application/atom+xml">
 
 
+    <!-- https://t.co/dKP3o1e -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <link rel="next" href="http://localhost:4000/page2/">
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+    </script>
 
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "Person",
-      "name": "",
-      "url": "http://localhost:4000/"
-    
-  }
-</script>
-
-
-
-
-
-
-
-<!-- end _includes/seo.html -->
-
-
-
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Deniz Y. Stenhaug Feed">
-
-
-<!-- https://t.co/dKP3o1e -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
-
+    <!-- For all browsers -->
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link as="style" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'"
+          rel="preload">
+    <noscript>
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" rel="stylesheet">
+    </noscript>
 
 
     <!-- start custom head snippets -->
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+    <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-<!-- end custom head snippets -->
+    <!-- end custom head snippets -->
 
-  </head>
+</head>
 
-  <body class="layout--home wide">
-    <nav class="skip-links">
-  <ul>
-    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
-  </ul>
+<body class="layout--home wide">
+<nav class="skip-links">
+    <ul>
+        <li><a class="screen-reader-shortcut" href="#site-nav">Skip to primary navigation</a></li>
+        <li><a class="screen-reader-shortcut" href="#main">Skip to content</a></li>
+        <li><a class="screen-reader-shortcut" href="#footer">Skip to footer</a></li>
+    </ul>
 </nav>
 
-    
 
 <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        
-        <a class="site-title" href="/">
-          Deniz Y. Stenhaug
-          
-        </a>
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/">Home</a>
-            </li><li class="masthead__menu-item">
-              <a href="/portfolio/">Portfolio</a>
-            </li><li class="masthead__menu-item">
-              <a href="/assets/docs/resume.pdf">Resume</a>
-            </li></ul>
-        
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+    <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+            <nav class="greedy-nav" id="site-nav">
+
+                <a class="site-title" href="/">
+                    Deniz Y. Stenhaug
+
+                </a>
+                <ul class="visible-links">
+                    <li class="masthead__menu-item">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="masthead__menu-item">
+                        <a href="/portfolio/">Portfolio</a>
+                    </li>
+                    <li class="masthead__menu-item">
+                        <a href="/assets/docs/resume.pdf">Resume</a>
+                    </li>
+                </ul>
+
+                <button class="greedy-nav__toggle hidden" type="button">
+                    <span class="visually-hidden">Toggle menu</span>
+                    <div class="navicon"></div>
+                </button>
+                <ul class="hidden-links hidden"></ul>
+            </nav>
+        </div>
     </div>
-  </div>
 </div>
 
 
-    <div class="initial-content">
-      
-  
+<div class="initial-content">
+
+    <div class="page__hero--overlay"
+         style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/assets/images/frognerseteren.jpeg');">
+
+        <div class="wrapper">
+            <h1 class="page__title" id="page-title" itemprop="headline">
+
+                Z’s Notebook
 
 
+            </h1>
+
+            <p class="page__lead">Some personal projects and thoughts.
+            </p>
+
+        </div>
 
 
+        <span class="page__hero-caption">Frognerseteren, Oslo</strong></a>
+      </span>
 
-
-
-<div class="page__hero--overlay"
-  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/assets/images/betty_bear.jpg');"
->
-  
-    <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
-        
-          Z’s Notebook
-
-        
-      </h1>
-      
-        <p class="page__lead">Some personal projects and thoughts.
-</p>
-      
-      
-
-
-      
-      
     </div>
-  
-  
-    <span class="page__hero-caption">Sunrise at <a href="http://www.huts.org/The_Huts/bettybear.php"><strong>Betty Bear Hut</strong></a>
-</span>
-  
+
+    <div id="main" role="main">
+
+        <div class="sidebar sticky">
+
+            <div class="h-card" itemscope itemtype="https://schema.org/Person">
+
+                <div class="author__avatar">
+                    <a href="http://localhost:4000/">
+                        <img alt="Deniz Y. Stenhaug" class="u-photo" itemprop="image" src="/assets/images/headshot.jpg">
+                    </a>
+                </div>
+
+                <div class="author__content">
+                    <h3 class="author__name p-name" itemprop="name">
+                        <a class="u-url" href="http://localhost:4000/" itemprop="url" rel="me">Deniz Y. Stenhaug</a>
+                    </h3>
+
+                    <div class="author__bio p-note" itemprop="description">
+                        <p>Software developer</p>
+                    </div>
+                </div>
+
+                <div class="author__urls-wrapper">
+                    <button class="btn btn--inverse">Follow</button>
+                    <ul class="author__urls social-icons">
+
+                        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+                            <i aria-hidden="true" class="fas fa-fw fa-map-marker-alt"></i> <span class="p-locality"
+                                                                                                 itemprop="name">Istanbul, Turkey</span>
+                        </li>
+
+                        <li>
+                            <a class="u-email" href="mailto:stenhaugdeniz@gmail.com" rel="me">
+                                <meta content="stenhaugdeniz@gmail.com" itemprop="email"/>
+                                <i aria-hidden="true" class="fas fa-fw fa-envelope-square"></i><span
+                                    class="label">Email</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/zeynep-deniz-yilmaz-s-444720195/" itemprop="sameAs"
+                               rel="nofollow noopener noreferrer me">
+                                <i aria-hidden="true" class="fab fa-fw fa-linkedin"></i><span
+                                    class="label">LinkedIn</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/ZDenizYStenhaug" itemprop="sameAs"
+                               rel="nofollow noopener noreferrer me">
+                                <i aria-hidden="true" class="fab fa-fw fa-github"></i><span class="label">GitHub</span>
+                            </a>
+                        </li>
+
+                        <!--
+            <li>
+              <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+                <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+              </a>
+            </li>
+          -->
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+            <meta content="" itemprop="headline">
+
+            <div class="page__inner-wrap">
+
+                <section class="page__content e-content" itemprop="text">
+
+                    <h1 id="about-me">About Me</h1>
+
+                    <!-- <p><img align="right" hspace="20" src="http://localhost:4000/assets/images/routeburn.jpg"
+                            width="50%"/></p>
+                    -->
+
+                    <p>Add about text here.</p>
+
+                    <!--
+        <div class="footnotes">
+          <ol>
+            <li id="fn:fnote2">
+              <p>After graduating from Reed, I spent some time living at
+        <a href="https://www.zendust.org/monastery">Great Vow Zen Monastery</a>, where we followed a daily schedule of work and
+        meditation. <a href="#fnref:fnote2" class="reversefootnote">&#8617;</a></p>
+            </li>
+          </ol>
+        </div>
+        -->
+                </section>
+                <footer class="page__meta">
+
+                </footer>
+            </div>
+        </article>
+    </div>
+
+    <div class="page__footer" id="footer">
+        <footer>
+            <!-- start custom footer snippets -->
+
+            <div class="page__footer-copyright">&copy; 2022 Deniz Y. Stenhaug. Powered by <a href="https://jekyllrb.com"
+                                                                                             rel="nofollow">Jekyll</a>
+                &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"
+                         rel="nofollow">Minimal Mistakes</a>.
+            </div>
+        </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"
+            type="text/javascript">
+    </script>
+
+    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </div>
 
+</body>
 
-
-
-
-<div id="main" role="main">
-  
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
-
-  
-    <div class="author__avatar">
-      <a href="http://localhost:4000/">
-        <img src="/assets/images/headshot.jpg" alt="Deniz Y. Stenhaug" itemprop="image" class="u-photo">
-      </a>
-    </div>
-  
-
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Deniz Y. Stenhaug</a>
-    </h3>
-    
-      <div class="author__bio p-note" itemprop="description">
-        <p>Software developer</p>
-
-      </div>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Istanbul, Turkey</span>
-        </li>
-      
-
-      
-
-      
-
-      
-        <li>
-          <a href="mailto:stenhaugdeniz@gmail.com" rel="me" class="u-email">
-            <meta itemprop="email" content="stenhaugdeniz@gmail.com" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
-          </a>
-        </li>
-      
-
-      
-
-      
-
-      
-
-      
-        <li>
-          <a href="https://www.linkedin.com/in/zeynep-deniz-yilmaz-s-444720195/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
-          </a>
-        </li>
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-        <li>
-          <a href="https://github.com/ZDenizYStenhaug" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
-          </a>
-        </li>
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
-  
-  </div>
-
-
-
-
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="">
-    
-    
-    
-
-    <div class="page__inner-wrap">
-      
-
-      <section class="page__content e-content" itemprop="text">
-        
-        <h1 id="about-me">About Me</h1>
-
-<p><img src="http://localhost:4000/assets/images/routeburn.jpg" width="50%" hspace="20" align="right" /></p>
-
-<p>I help organizations understand and leverage their quantitative
-information. Call it what you will: data science, machine learning, or
-statistics; the modern technological world lies at the intersection of
-mathematics and computing, and that’s where I like to play.</p>
-
-<p>I’ve worked with <a href="https://www.entelligent.com">Stage 1 start-ups</a> and <a href="https://www.thetradedesk.com">publicly traded corporations</a>,
-building models, establishing codebases, and providing mathematical expertise to
-developers. My mother tongue is Python, but I also speak Scala and Java. I have
-experience working with Apache Spark, scikit-learn, Tensorflow, pandas, and many
-other popular data analysis and machine learning libraries.</p>
-
-<p>I have a bachelors degree in Physics from Reed College, where I did
-<a href="/assets/docs/thesis.pdf">my thesis</a> on measurement of quantum entanglement in optical systems. After
-spending some time pursuing other interests,<sup id="fnref:fnote2"><a href="#fn:fnote2" class="footnote">1</a></sup> I began working on my
-Ph.D. in Applied Mathematics at University of Colorado. My dissertation covers a
-range of topics in statistics, data analytics, and understanding noisy
-systems. For more details on all that, check out <a href="/portfolio/">my portfolio</a>, or
-take a look at <a href="/assets/docs/resume.pdf">my resume</a>.</p>
-
-<p>I currently live in San Francisco, where I work as a data scientist with the
-inventory optimization team at <a href="https://multithreaded.stitchfix.com/algorithms/">Stitch Fix</a>.</p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:fnote2">
-      <p>After graduating from Reed, I spent some time living at
-<a href="https://www.zendust.org/monastery">Great Vow Zen Monastery</a>, where we followed a daily schedule of work and
-meditation. <a href="#fnref:fnote2" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-        
-
-      </footer>
-
-      
-
-      
-    </div>
-
-    
-  </article>
-
-  
-
-    </div>
-
-    
-
-    <div id="footer" class="page__footer">
-      <footer>
-        <!-- start custom footer snippets -->
-
-<!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-  <ul class="social-icons">
-    
-
-    
-
-    
-      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-    
-  </ul>
-</div>
-
-<div class="page__footer-copyright">&copy; 2022 Deniz Y. Stenhaug. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
-
-      </footer>
-    </div>
-
-    
-  <script src="http://localhost:4000/assets/js/main.min.js"></script>
-
-
-
-
-
-
-
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
-
-<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
-
-
-
-  </body>
 </html>
