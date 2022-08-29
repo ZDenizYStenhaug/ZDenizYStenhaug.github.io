@@ -21,19 +21,3 @@ portfolio:
         url: /portfolio/netcomp/
       - title: "Automatic Genre Classification"
         url: /portfolio/genre_cls/
-
-  - title: "Professional"
-    children:
-      - title: "DeskAI"
-        url: /portfolio/deskai
-      - title: "Smart Climate Index"
-        url: /portfolio/sclm
-
-  - title: "Research"
-    children:
-      - title: "Dynamic Anomaly Detection"
-        url: /portfolio/networks/
-      - title: "Statistics of Entanglement"
-        url: /portfolio/qm_stats/
-      - title: "Magnetic Waves and Noise"
-        url: /portfolio/waves/
